@@ -124,11 +124,11 @@ function WorkComponent() {
 
 export default function TopPage() {
   return (
-    <div>
+    <>
       <MyProfileComponent />
       <MySkillComponent />
       <QualificationComponent />
       <WorkComponent />
-    </div>
+    </>
   )
 }
